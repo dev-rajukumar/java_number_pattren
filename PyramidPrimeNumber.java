@@ -1,4 +1,4 @@
-class TrianglePrime
+class PyramidPrimeNumbers
 {
 
 	public static void main(String args[])
