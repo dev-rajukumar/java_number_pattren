@@ -14,21 +14,22 @@ class PrimeNumbersPyramid
 					temp=temp+1;
 				}
 			}
-				if(temp==0)
-		          {
-				for(int i=1; i<=5;i++)//Outer Loop
-		{
-	for(int j=5; j>i; j--)//Print Spaces
-			{
-			System.out.print(" ");
-			}
-			for(int k=1; k<(i*2); k++)
-			{
-			System.out.print(no);
-			}
-		System.out.println();
+				if(temp==0)         
+                             {
+	                   
+	                       for(int i=no; i<=no;i++)//Outer Loop
+		              {
+	                      for(int j=9; j>=no-1; j--)//Print Spaces
+			          {
+			         System.out.print(" ");
+			          }
+                                 for(int k=1; k<=(1*i); k++)
+			          {
+			          System.out.print(no + " ");
+			           }
+		                System.out.println();
+			 }
+                     }
 		}
-		           }
-                   }
         }
 }
